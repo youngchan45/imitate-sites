@@ -1,0 +1,88 @@
+/* reset */
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+form,
+fieldset,
+legend,
+input,
+textarea,
+p,
+blockquote,
+th,
+td,
+hr,
+button,
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    margin: 0;
+    padding: 0;
+    font-family:
+    "Montserrat", sans-serif;
+}
+
+
+ol,
+ul {
+    list-style: none;
+}
+
+/* h1,h2,h3,h4,h5,h6{font-size:100%;} */
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+button {
+    cursor: pointer;
+    border:none;
+    font-size:14px;
+    color: #fff;
+}
+
+/* function */
+.clear {
+    clear: both;
+    height: 0;
+    line-height: 0;
+    font-size: 0;
+    overflow: hidden;
+}
+
+.clearfix {
+    *zoom: 1
+}
+
+.clearfix:after {
+    content: "\20";
+    clear: both;
+    height: 0;
+    display: block;
+    overflow: hidden;
+}
