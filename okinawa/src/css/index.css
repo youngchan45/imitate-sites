@@ -1,0 +1,540 @@
+body {
+    cursor: default;
+}
+
+.px12 {
+    font-size: 12px;
+}
+
+.px14 {
+    font-size: 14px;
+}
+
+.header,
+.banner,
+.news,
+.about,
+.movie,
+.str-mid,
+.sta,
+.FAQ,
+.refer,
+.blog,
+.ins,
+.footer {
+    display: flex;
+}
+
+.header {
+    justify-content: space-around;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.5);
+    height: 90px;
+
+}
+
+#logo,
+.btn {
+    display: block;
+}
+
+#logo {
+    width: 160px;
+    height: 50px;
+}
+
+.nav a {
+    padding: 5px 15px;
+}
+
+.header-btn {
+    background-color: #FF6633;
+    width: 188px;
+    height: 36px;
+    border-radius: 20px;
+}
+
+
+.banner {
+    justify-content: center;
+    text-align: center;
+}
+
+.px24 {
+    font-size: 24px;
+}
+
+.px64 {
+    font-size: 64px;
+}
+
+.cur {
+    width: 85px;
+    height: 114px;
+}
+
+.news {
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.px32 {
+    font-size: 32px;
+}
+
+.px20 {
+    font-size: 20px;
+}
+
+.px16 {
+    font-size: 16px;
+}
+
+.px22 {
+    font-size: 22px;
+}
+
+.news {
+    display: flex;
+    padding: 0 160px;
+}
+
+.new1 {
+    align-self: flex-start;
+    flex-basis: 25%;
+}
+
+.new1in {
+    margin: 0 0 0 40px;
+}
+
+.new2 {
+    align-self: flex-start;
+    flex-basis: 75%;
+    /* display: flex;
+    flex-direction: column; */
+}
+
+.new2in {
+    display: flex;
+    justify-content: flex-start;
+    align-items: baseline;
+}
+
+.newstit {
+    background-color: #f7f6f5;
+    color: #666;
+    display: inline-block;
+    width: 90px;
+    height: 28px;
+    text-align: center;
+    vertical-align: middle;
+    /*为什么能如此设置？ 易错点*/
+    line-height: 28px;
+    /* flex-basis: 10%; */
+    margin: 0 5px;
+    flex-shrink: 0;
+}
+
+.newdate {
+    font-size: 14px;
+    font-weight: 600;
+    /* flex-basis: 10%; */
+    margin: 0 5px;
+}
+
+.newwo {
+    flex-basis: 70%;
+    display: block;
+    line-height: 2.2em;
+}
+
+.new2 div {
+    margin: 0 0 20px;
+}
+
+.news-btn {
+    display: relative;
+    float: right;
+    width: 185px;
+    height: 52px;
+    background-color: #0F954B;
+    border-radius: 25px;
+    margin: 10px;
+}
+
+.about{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url("../okinawa/img/bg_paper.png");
+    
+}
+.movie{
+    width: 100%;
+    flex-basis: 100%;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+.about {
+    padding: 90px 0;
+}
+
+.letspa {
+    letter-spacing: .18em;
+    font-weight: 700;
+}
+
+.letspa1 {
+    margin: 20px 0;
+    color: #0F954B;
+    font-weight: 700;
+}
+
+.letspa2 {
+    margin: 50px 0 30px 0;
+    font-weight: 700;
+}
+
+.letspa3 {
+    line-height: 2.4;
+}
+
+.about-btn {
+    margin: 60px auto 0 auto;
+    width: 440px;
+    height: 52px;
+    background-color: #0F954B;
+    border-radius: 25px;
+}
+
+.tours-tlt {
+    text-align: center;
+    margin: 70px 0;
+}
+
+.tourtit1 {
+    font-weight: 700;
+}
+
+.tourtit2 {
+    color: #0F954B;
+    margin: 30px 0;
+    font-weight: 700;
+}
+
+.str {
+    display: flex;
+
+}
+
+.str1 {
+    flex-grow: 2;
+    flex-shrink: 2;
+    flex-basis: 40%;
+    padding: 100px 80px 0 180px;        
+}
+
+.str2 {    
+    flex-grow: 3;
+    flex-shrink: 3;
+    flex-basis: 60%;
+    width: 100%;
+}
+
+.str2 img,
+.str1 img {
+    width: 100%;
+    /* height: 625px; */
+}
+
+.px30 {
+    font-size: 30px;
+}
+
+.str1wo1,
+.str1wo2 {
+    font-weight: 700;
+}
+
+.str1wo1 {
+    color: #0F954B;
+}
+
+.str1wo3 {
+    margin-top: 50px;
+}
+
+.str1wo2,
+.str1wo3 {
+    line-height: 1.8em;
+}
+
+.str-btn {
+    /* margin: 60px auto 70px 0; */
+    width: 170px;
+    height: 52px;
+    background-color: #0F954B;
+    border-radius: 25px;
+}
+
+.str-mid {
+    justify-content: center;
+    align-items: center;
+    margin: 50px 100px;
+
+}
+
+.str-midin {
+    display: flex;
+    border: 5px solid #0F954B;
+    outline: none;
+}
+
+.str-midin2 {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    flex-basis: 1;
+    flex-shrink: 1;
+    align-items: center;
+}
+
+.str-midin1 {
+    flex-basis: 1;
+    flex-shrink: 1;
+}
+
+/* .str-midin2>h2,
+.str-midin2>p,
+.str-midin2>button {
+    align-self: center;
+} */
+
+.midin2wo {
+    margin: 10px;
+    color: #0F954B;
+}
+
+.px26 {
+    font-size: 26px;
+}
+
+.midin2wo1 {
+    margin: 22px 40px;
+    line-height: 1.8em;
+}
+
+.str-btn1 {
+    height: 40px;
+    margin: 18px 0 0;
+}
+
+.staff {
+    background-image: url("img/bg_paper.png");
+    padding: 30px 0;
+
+}
+
+.sta {
+    margin: 0 100px;
+}
+
+.sta1 {
+    display: flex;
+    flex-basis: 50%;
+}
+
+.intro {
+    /* flex-shrink: 1; */
+    padding: 0 10px;
+    /* width: 390px; */
+}
+
+.intro-img {
+    /* flex-shrink: 1; */
+    width: 250px;
+    height: 250px;
+}
+
+.FAQ {
+    padding: 100px 150px;
+}
+
+.FAQtit {
+    flex-basis: 30%;
+    display: flex;
+    align-items: center;
+}
+.FAQtit>h2{
+    color: #0F954B;;
+}
+.FAQsel {
+    flex-basis: 70%;
+}
+
+
+.refer{
+    background-image: url('img/bg_foot-inquiry.jpg') ;
+    background-size:100% 100%;  /*易错点 如何让图片完全显示,但会出现拉伸效果*/
+    padding: 100px 0;
+    display: flex;
+    justify-content: center;    
+}
+
+.referin{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+.referin>h1{
+    margin: 45px 0;   
+}
+.referin>p{
+    margin: 0 0 50px;
+    line-height: 1.8em;
+    text-align: center;
+}
+.refer-btn{
+    width: 650px;
+    height: 80px;
+    border-radius: 50px;
+    font-size:25px;
+}
+.blog{
+    background-image: url("img/bg_paper.png");
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0 50px;
+}
+.blogin{
+    
+    display: flex;
+    justify-content: center; 
+    margin: 0 70px;
+
+}
+.blogin img{
+    width: 100%;
+}
+.no-pic{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    margin: 0 30px;
+    padding: 0 22px 30px;
+    flex-basis: 30%;
+    flex-grow: 1;
+    flex-shrink: 1; 
+}
+.px18{
+    font-size: 18px;
+    font-weight: 700;
+}
+/* .no-pic1{
+    flex-basis: 30%;
+    flex-grow: 1;
+    flex-shrink: 1;    
+} */
+.nopicwo{
+    line-height: 1.8em;
+}
+.nopicwo1{
+    margin:10px 0;
+}
+.blogbtn{
+    background-color: #0F954B;
+    color: #fff;
+    border-radius: 20px;
+    width: 190px;
+    height: 40px;
+    font-weight: 700;
+    
+}
+.blogbtn img{
+    max-width: 15px;
+    margin: 0 0 0 5px;
+    
+}
+.blbtn{
+    background-color: #0F954B;
+    color: #fff;
+    border-radius: 20px;
+    max-width: 440px;
+    width: 100%;
+    height: 50px;
+    /*等效写法： width: 440px*/
+    font-weight: 700;
+    margin-top: 70px; 
+}
+.blbtn img{
+    height: 15px;
+}
+
+.ins{
+    flex-direction: column;
+    align-items: center;
+}
+.insimg{
+    display: flex;
+}
+.insimg img{
+    width: 100%;  
+    max-height: 280px;  
+    height: 100%;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 20%;
+}
+.insimg1{
+    margin-top: -4px;
+}
+.fourlink{
+    display: flex;
+    justify-content: center;
+}
+.ins-p1{
+    margin: 70px 0 40px 0;
+    font-weight: 700;
+}
+.ins-p2{
+    margin: 0 0 30px;
+    font-weight: 500;
+}
+.pagetop{
+    align-self: flex-end;
+    margin: 0 50px;
+}
+
+.fourlink>img{
+    max-width: 50px;
+    width: 100%;
+    height: 50px;
+    padding: 30px;
+}
+.top-bg{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #0F954B;  
+    display: flex; 
+}
+.pagetop>div{
+    align-items: center;
+    justify-content: center;
+    /* color: #fff; */
+}
+.fa{
+    color: #fff;
+    
+    
+}
