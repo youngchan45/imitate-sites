@@ -378,7 +378,7 @@ body {
 
 
 .refer{
-    background-image: url('img/bg_foot-inquiry.jpg') ;
+    background-image: url('../../img/bg_foot-inquiry.jpg') ;
     background-size:100% 100%;  /*易错点 如何让图片完全显示,但会出现拉伸效果*/
     padding: 100px 0;
     display: flex;
@@ -409,7 +409,7 @@ body {
     font-size:25px;
 }
 .blog{
-    background-image: url("img/bg_paper.png");
+    background-image: url("../../img/bg_paper.png");
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -512,7 +512,8 @@ body {
 }
 .pagetop{
     align-self: flex-end;
-    margin: 0 50px;
+    margin: 0 70px;
+    
 }
 
 .fourlink>img{
@@ -525,16 +526,36 @@ body {
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    background-color: #0F954B;  
-    display: flex; 
-}
-.pagetop>div{
+    background-color: #0F954B;
+    display: flex;
     align-items: center;
     justify-content: center;
-    /* color: #fff; */
+    
 }
 .fa{
     color: #fff;
+}
+.footer{
+    justify-content: space-between;
+    background-color: #07273e;
+    color: #fff;
+}
+.foot1{
+    display: flex;
+    flex-direction: column;   
+}
+.foot1-2, .foot1-2>a{
+    color:#8796a1;
     
-    
+}
+.foot1-2:hover:{
+    text-decoration: underline;
+}
+.foot2, .foot1-1{
+    display: flex;
+}
+.logo1{
+    width: 100%;
+    max-width:100px;
+    height: 30px;
 }
